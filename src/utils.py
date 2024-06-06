@@ -52,7 +52,7 @@ cuda_img = (
 # Create a Modal app with the specified image and secrets
 app = modal.App(
     'mistral-notebook',
-    image=cuda_img
+    image=cuda_img, secrets=[modal.Secret.from_name("huggingface")]
 )
 
 @app.function(volumes=VOLUME_CONFIG, timeout=10 * MINUTES)
