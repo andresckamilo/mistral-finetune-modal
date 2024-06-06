@@ -97,11 +97,11 @@ def seed_volume(model: dict[str, str]):
                 file.write(chunk)
 
     # Check if the repository directory exists
-    repo_dir = Path('/root/content/mistral-finetune')
+    repo_dir = Path('/root/content/mistral-finetune-modal')
 
     if not os.path.exists(repo_dir):
         # Clone the repository if it doesn't exist
-        repo_url = 'https://github.com/andresckamilo/mistral-finetune.git'
+        repo_url = 'https://github.com/andresckamilo/mistral-finetune-modal.git'
         clone_github_repo(repo_url, repo_dir)
 
     finetune_files = repo_dir / 'finetune_files'

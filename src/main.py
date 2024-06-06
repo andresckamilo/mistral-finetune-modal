@@ -36,7 +36,7 @@ def run_jupyter(timeout: int, *, TOKEN: str = "1234"):
     import time
 
     jupyter_port = 8888  # Port for Jupyter Notebook
-    os.chdir("/root/content/mistral-finetune/finetune_files")  # Change directory to the project root
+    os.chdir("/root/content/mistral-finetune-modal/finetune_files")  # Change directory to the project root
     with forward(jupyter_port) as tunnel:  # Forward the Jupyter port
         jupyter_process = subprocess.Popen(
             [

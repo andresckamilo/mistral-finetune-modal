@@ -4,8 +4,7 @@ This repository provides a Python script to set up a Jupyter Lab server for fine
 
 ## Features
 
-- **Supported Models:** Easily switch between multiple pre-configured Mistral models.
-- **GPU Support:** Configure GPU settings for enhanced performance.
+- **Supported Models:** Easily switch between multiple pre-configured Mistral models..
 - **Volume Management:** Automatically handle volume creation and seeding with model data.
 - **Jupyter Notebook:** Seamlessly run a Jupyter Notebook server with custom authentication.
 
@@ -17,8 +16,8 @@ This repository provides a Python script to set up a Jupyter Lab server for fine
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/andresckamilo/mistral-finetune.git
-    cd mistral-finetune
+    git clone https://github.com/andresckamilo/mistral-finetune-modal.git
+    cd mistral-finetune-modal
     ```
 
 2. **Configure Modal** 
